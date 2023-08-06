@@ -1,0 +1,33 @@
+const users = new mongoose.Schema({
+    email: String,
+    password: String
+})
+
+const products = new mongoose.Schema({
+    id: String,
+    name: String,
+    type: String,
+    brand: String,
+    price: String,
+    url: String,
+    store_name: String,
+    description: String
+  });
+
+  const store_lists = new mongoose.Schema({
+    email: String,
+    Store_name: String,
+    password: String,
+    division: String,
+    district: String,
+    thana: String,
+    url: String
+  });
+
+  const orders = new mongoose.Schema({
+    customerEmail: String,
+    productName: String,
+    productPrice: String,
+    quantity: String,
+    productUrl: String
+  })

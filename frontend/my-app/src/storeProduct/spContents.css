@@ -1,0 +1,40 @@
+.storeProduct{
+    width: 80%;
+    margin: auto;
+}
+.spContent{
+    min-height: 800px;
+    width: 20%;
+    margin: auto;
+    padding:40px;
+}
+.spContent lebel {
+
+}
+
+.spContent input{
+    height: 35px;
+    width: 400px;
+    background-color: rgba(214, 214, 213, 0.889);
+    text-align: center;
+    border-radius: 10px;
+    border-style: none;
+    margin: 10px 0;
+}
+
+.spContent textarea{
+    width: 400px;
+    background-color: rgba(214, 214, 213, 0.889);
+    text-align: center;
+    border-radius: 10px;
+    border-style: none;
+    margin: 10px 0;
+}
+
+.spContent button {
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+}

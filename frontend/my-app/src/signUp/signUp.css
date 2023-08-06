@@ -1,0 +1,27 @@
+.signUpOption{
+    
+}
+
+.signUpOption .inner{
+    text-align: center;
+}
+
+.signUpOption ul{
+    list-style: none;
+}
+
+.signUpOption .inner a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.signUpOption .inner a:hover{
+    text-decoration: none;
+    color:aqua;
+    font-size: 30px;
+}
+
+.signUpOption li{
+    padding: 10px;
+}

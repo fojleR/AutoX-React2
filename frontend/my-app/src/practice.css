@@ -1,0 +1,18 @@
+.practice{
+    /* width: 50%; */
+    margin: auto;
+    text-align: center;
+
+}
+.practice .img{
+    display: inline-block;
+    width: 400px;;
+    height: 400px;
+    border-style: solid;
+    background-color: aliceblue;
+}
+
+.practice img{
+    height: 390px;
+    width: 390px;
+}

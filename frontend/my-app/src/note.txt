@@ -1,0 +1,26 @@
+useEffect( () =>{
+        const fetchName = async () => {
+            try {
+              const res = await axios.get("http://localhost:5000/students");
+              console.log(res.data);
+              setName(res.data[2].name);
+            } catch (error) {
+              console.log(error);
+            }
+          };
+          fetchName();
+    }, []);
+
+    function handleSubmit(event){
+        //event.preventDefalut();
+        axios.post("http://localhost:5000/students",{
+            name: {Name},
+            emial: {Email}
+        }).then(function(res){
+            console.log(res);
+        }).catch(function(err){
+            console.log(err);
+        });
+        console.log(Name);
+        console.log(Email);
+    }

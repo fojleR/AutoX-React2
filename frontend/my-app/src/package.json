@@ -1,0 +1,15 @@
+{
+  "name": "components",
+  "version": "1.0.0",
+  "description": "this is autoX server",
+  "main": "parts_list.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fojle rabbi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.3.4"
+  }
+}

@@ -1,0 +1,34 @@
+.orderMain{
+    width: 70%;
+    margin: auto;
+}
+
+.orderList{
+    min-height: 800px;
+    margin: 50px;
+}
+
+.orderListContent{
+    width: 50%;
+    margin: auto;
+}
+
+.orderListContent td{
+    padding: 15px;
+    min-width: 60px;
+    border-style: solid;
+}
+.orderListContent th{
+    padding: 15px;
+    min-width: 60px;
+    border-style: solid;
+    margin: 0;
+}
+
+.orderListContent img{
+    height: 50px
+}
+
+.orderListContent table{
+    border-style: solid;
+}

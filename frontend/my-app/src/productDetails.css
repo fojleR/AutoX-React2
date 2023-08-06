@@ -1,0 +1,34 @@
+.details{
+    /* min-height: 800px; */
+}
+
+.detailContet{
+    display: flex;
+    min-height: 800px;
+}
+
+.detailContet .imageBox{
+    /* background-color: red; */
+    width: 30%;
+    min-height: 400px;
+    max-height: 500px;
+    border-style: solid;
+    margin: 60px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.detailContet img{
+    width: 500px;
+}
+
+.detailContet .information{
+    margin: 60px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.detailContet .information p div{
+    width: 400px;
+}

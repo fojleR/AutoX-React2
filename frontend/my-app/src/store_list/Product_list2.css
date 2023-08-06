@@ -1,0 +1,51 @@
+/* Product_list2.css */
+.product-list2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .product-item-container {
+    width: 20%;
+    margin: 20px;
+  }
+  
+  .product-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Set a fixed size for the product images */
+  .product-item img {
+    width: 150px; /* Adjust the size as per your preference */
+    height: 150px; /* Adjust the size as per your preference */
+    object-fit: cover; /* Maintain the aspect ratio and cover the container */
+    border-radius: 8px; /* Add rounded corners to the images */
+  }
+  
+  .product-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .product-price {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    background-color: #333;
+  }
+  

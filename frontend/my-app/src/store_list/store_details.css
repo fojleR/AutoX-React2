@@ -1,0 +1,18 @@
+.Store-details{
+    /* width: 30%; */
+    margin: auto;
+    text-align: center;
+}
+
+.Store-details p{
+    text-align: center;
+}
+
+.Store-details textarea{
+    font-size: 20px;
+}
+
+.Store-details input{
+    height: 250px;
+    width: 40%;
+}
